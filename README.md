@@ -2,9 +2,9 @@
 
 En este pequeño pryecto se puede apreciar un poco de lo que he aprendido de React.js por medio de un curso el cual terminé el 24/10/2023
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+https://paulovalen500.github.io/TODO/
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+
 
 ## Getting Started with Create React App
 
