@@ -1,0 +1,55 @@
+form {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    background-color: darkslateblue;
+    padding: 20px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    animation: border 4s infinite;
+    z-index: 1;
+}
+
+textarea{
+    border: 2px solid gainsboro;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 280px;
+    max-height: 160px;
+    min-height: 60px;
+    min-width: 200px;
+
+}
+
+textarea:focus{
+    outline-color: #99ccff;
+}
+
+.TodoFormButtonContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TodoFormButton {
+    color: black;
+    border-style: none ;
+    padding: 5px;
+    background: none;
+}
+
+.TodoFormButtonAdd {
+    background-color: #99ccff;
+}
+
+.TodoFormButtonCancel {
+    background-color: slategray;
+}
+
+@keyframes border {
+    0% { border-color: #f45e61; }
+    33% { border-color: fuchsia ; }
+    66% { border-color: blue; }
+    100% { border-color: #f45e61; }
+  }

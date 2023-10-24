@@ -7,6 +7,7 @@ import { TodosError } from '../TodosError';
 import { EmptyTodos } from '../EmptyTodos';
 import { CreateTodoButton } from '../CreateTodoButton';
 import { Modal } from '../Modal';
+import { TodoForm } from '../TodoForm';
 import { TodoContext } from '../TodoContext';
 import React from 'react';
 
@@ -24,7 +25,9 @@ function AppUI() {
         <>
           <TodoCounter/>
           <TodoSearch />
-          <CreateTodoButton />
+          <CreateTodoButton 
+            setOpenModal={setOpenModal}
+          />
                         <TodoList>
                         {loading && (
                           <>
@@ -51,7 +54,7 @@ function AppUI() {
 
                           {openModal && (
                             <Modal>
-                              Funciona
+                              <TodoForm/>
                             </Modal>
                           )}
         </>
