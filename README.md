@@ -1,6 +1,6 @@
 # TODO 
 
-En este pequeño pryecto se puede apreciar un poco de lo que he aprendido de React.js por medio de un curso el cual terminé el 24/10/2023
+En este pequeño pryecto se puede apreciar un poco de lo que he aprendido de React.js
 
 https://paulovalen500.github.io/TODO/
 
